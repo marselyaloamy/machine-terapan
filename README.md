@@ -1,10 +1,10 @@
 # Laporan Proyek Machine Learning - Marselya Loamy
 
-#Domain Proyek
-Tumbuhan menjadi salah satu organisme yang mampu memproduksi senyawa toksin, bahkan dapat dimanfaatkan sebagai bahan racun oleh manusia. Tumbuhan memiliki ribuan bahkan jutaan jenis, di mana antar tumbuhan mempunyai kesamaan maupun berbedaan yang samar. Sehingga diperlukan ketelitian untuk mengetahui tumbuhan yang memiliki ciri-ciri sama. Salah satu perbedaan yang dimiliki tumbuhan terletak pada pola daun, helai daun, tulang daun dan warna daun. Dengan demikian dapat difokuskan memanfaatkan pola daun, helai daun, tulang daun dan juga warna untuk pengenalan parameter. Dari parameter tersebut sistem bisa mengenali ciri dari tumbuhan agar sistem bisa melakukan klasifikasi untuk menentukan tumbuhan beracun.Hal ini disebabkan senyawa toksin dalam tumbuhan mengandung zat kimia yang mampu menyebabkan rasa sakit bahkan kematian jika terjadi kontak langsung dengan manusia atau hewan baik dihirup atau dimakan dengan kadar yang berlebihan. Kadar racun alami dalam tumbuhan memang terbilang cukup rendah, akan tetapi terdapat beberapa jenis tumbuhan yang memiliki kadar racun yang tinggi sehingga membutuhkan keterampilan khusus ketika akan mengolahnya.
+##Domain Proyek
+###Tumbuhan menjadi salah satu organisme yang mampu memproduksi senyawa toksin, bahkan dapat dimanfaatkan sebagai bahan racun oleh manusia. Tumbuhan memiliki ribuan bahkan jutaan jenis, di mana antar tumbuhan mempunyai kesamaan maupun berbedaan yang samar. Sehingga diperlukan ketelitian untuk mengetahui tumbuhan yang memiliki ciri-ciri sama. Salah satu perbedaan yang dimiliki tumbuhan terletak pada pola daun, helai daun, tulang daun dan warna daun. Dengan demikian dapat difokuskan memanfaatkan pola daun, helai daun, tulang daun dan juga warna untuk pengenalan parameter. Dari parameter tersebut sistem bisa mengenali ciri dari tumbuhan agar sistem bisa melakukan klasifikasi untuk menentukan tumbuhan beracun.Hal ini disebabkan senyawa toksin dalam tumbuhan mengandung zat kimia yang mampu menyebabkan rasa sakit bahkan kematian jika terjadi kontak langsung dengan manusia atau hewan baik dihirup atau dimakan dengan kadar yang berlebihan. Kadar racun alami dalam tumbuhan memang terbilang cukup rendah, akan tetapi terdapat beberapa jenis tumbuhan yang memiliki kadar racun yang tinggi sehingga membutuhkan keterampilan khusus ketika akan mengolahnya.
 
-#Business Understanding
-Problem Statements
+##Business Understanding
+###Problem Statements
 Menjelaskan pernyataan masalah latar belakang:
 * Bagaimana membuat sistem klasifikasi tumbuhan beracun ?
 * Berapa tingkat akurasi sistem klasifikasi tumbuhan beracun ?
@@ -47,5 +47,6 @@ Bagian model fit, disini ada untuk memanggil data training dengan cara kerja _st
 Saya memakai metrik evaluasi akurasi klasifikasi yang digunakan. Metrik Akurasi Ini adalah rasio jumlah prediksi yang benar dengan jumlah total prediksi yang dibuat untuk kumpulan gambar yang digunakan. Grafik plot yang tertampil merupakan overfit karena mungkin training dataset ini tidak bisa diprediksi dengan tepat.
 ![image](https://user-images.githubusercontent.com/55178060/194866973-c2cb83b3-6fe5-47db-a83b-0e0f5320ded3.png)
 
-Hasil Akurasi dari proyek saya dengan persentase acuracy 0.57% dan val_accuracy 0.47%, gambar yang digunakan mungkin tidak seimbang sehingga tidak cukup baik dalam mencapai akurasi goodfit. Gambar output
+Hasil Akurasi dari proyek saya dengan persentase acuracy 0.57% dan val_accuracy 0.47%, gambar yang digunakan mungkin tidak seimbang sehingga tidak cukup baik dalam mencapai akurasi goodfit. 
+Gambar output
 ![image](https://user-images.githubusercontent.com/55178060/194867216-ed1dd8a4-d258-4bf0-9342-ff9385098196.png) menunjukkan sudah sesuai dengan gambar yang di maksud, gambar dengan nomor 107 yaitu daun rasberry berada pada bagian nontoxic berarti tumbuhan ini tidak beracun dan buahnya bisa dikonsumsikan.
